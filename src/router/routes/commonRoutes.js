@@ -1,14 +1,13 @@
 /*
  * @Author: your name 路由配置
  * @Date: 2020-08-08 01:56:01
- * @LastEditTime: 2020-08-09 19:57:11
+ * @LastEditTime: 2020-08-09 20:04:17
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \pc-system\src\router\routes\commonRoutes.js
  */
-export const routes = [{
+const routes = [{
     path:'/login',//登录
-    name:'login',
     alias:'/',
     component:()=>import('@/pages/login/login')
 },
@@ -37,3 +36,4 @@ export const routes = [{
     component:()=>import('@/pages/404/404')
 },
 ]
+export default routes
